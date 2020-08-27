@@ -22,7 +22,7 @@ namespace GUI
             // TODO: This line of code loads data into the 'JOALHERIADataSet.venda' table. You can move, or remove it, as needed.
             this.vendaTableAdapter.Fill(this.JOALHERIADataSet.venda);
 
-            this.reportViewer1.RefreshReport();
+          //  this.reportViewer1.RefreshReport();
         }
 
         private void iconeencerar_Click(object sender, EventArgs e)

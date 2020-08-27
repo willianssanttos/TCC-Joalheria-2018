@@ -27,7 +27,7 @@ namespace GUI
             // TODO: This line of code loads data into the 'JOALHERIADataSet.funcionario' table. You can move, or remove it, as needed.
             this.funcionarioTableAdapter.Fill(this.JOALHERIADataSet.funcionario);
 
-            this.reportViewer1.RefreshReport();
+         //   this.reportViewer1.RefreshReport();
         }
     }
 }

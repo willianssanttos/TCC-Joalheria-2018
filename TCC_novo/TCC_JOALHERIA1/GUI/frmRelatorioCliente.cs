@@ -23,7 +23,7 @@ namespace GUI
             this.clienteTableAdapter.Fill(this.JOALHERIADataSet.cliente);
 
 
-            this.reportViewer1.RefreshReport();
+          //  this.reportViewer1.RefreshReport();
         }
 
         private void iconeencerar_Click(object sender, EventArgs e)

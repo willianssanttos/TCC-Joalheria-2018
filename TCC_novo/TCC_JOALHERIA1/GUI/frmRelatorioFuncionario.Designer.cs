@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
+          //  Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.iconeencerar = new System.Windows.Forms.PictureBox();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+          //  this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.JOALHERIADataSet = new GUI.JOALHERIADataSet();
             this.funcionarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.funcionarioTableAdapter = new GUI.JOALHERIADataSetTableAdapters.funcionarioTableAdapter();
@@ -51,7 +51,7 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.reportViewer1);
+         //   this.panel1.Controls.Add(this.reportViewer1);
             this.panel1.Location = new System.Drawing.Point(12, 48);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(860, 490);
@@ -71,8 +71,8 @@
             this.iconeencerar.Click += new System.EventHandler(this.iconeencerar_Click);
             // 
             // reportViewer1
-            // 
-            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            //
+         /*   this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
             reportDataSource2.Name = "funcionario";
             reportDataSource2.Value = this.funcionarioBindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource2);
@@ -80,8 +80,8 @@
             this.reportViewer1.Location = new System.Drawing.Point(0, 0);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.Size = new System.Drawing.Size(860, 490);
-            this.reportViewer1.TabIndex = 0;
-            // 
+            this.reportViewer1.TabIndex = 0;*/
+            //
             // JOALHERIADataSet
             // 
             this.JOALHERIADataSet.DataSetName = "JOALHERIADataSet";
@@ -135,7 +135,7 @@
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private System.Windows.Forms.PictureBox iconeencerar;
         private System.Windows.Forms.Panel panel1;
-        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+      //  private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
         private System.Windows.Forms.BindingSource funcionarioBindingSource;
         private JOALHERIADataSet JOALHERIADataSet;
         private JOALHERIADataSetTableAdapters.funcionarioTableAdapter funcionarioTableAdapter;

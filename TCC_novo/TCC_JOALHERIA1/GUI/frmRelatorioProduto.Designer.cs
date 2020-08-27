@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
+         // Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.produtoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.JOALHERIADataSet = new GUI.JOALHERIADataSet();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+         //  this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.produtoTableAdapter = new GUI.JOALHERIADataSetTableAdapters.produtoTableAdapter();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
@@ -56,7 +56,7 @@
             // 
             // reportViewer1
             // 
-            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+          /*  this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
             reportDataSource2.Name = "produto";
             reportDataSource2.Value = this.produtoBindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource2);
@@ -65,7 +65,7 @@
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.Size = new System.Drawing.Size(807, 499);
             this.reportViewer1.TabIndex = 0;
-            this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
+            this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);*/
             // 
             // produtoTableAdapter
             // 
@@ -78,7 +78,7 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.reportViewer1);
+         //   this.panel1.Controls.Add(this.reportViewer1);
             this.panel1.Location = new System.Drawing.Point(12, 39);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(807, 499);
@@ -133,7 +133,7 @@
 
         #endregion
 
-        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+      //private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
         private System.Windows.Forms.BindingSource produtoBindingSource;
         private JOALHERIADataSet JOALHERIADataSet;
         private JOALHERIADataSetTableAdapters.produtoTableAdapter produtoTableAdapter;

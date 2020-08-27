@@ -22,7 +22,7 @@ namespace GUI
             // TODO: This line of code loads data into the 'JOALHERIADataSet.produto' table. You can move, or remove it, as needed.
             this.produtoTableAdapter.Fill(this.JOALHERIADataSet.produto);
 
-            this.reportViewer1.RefreshReport();
+          //  this.reportViewer1.RefreshReport();
         }
 
         private void reportViewer1_Load(object sender, EventArgs e)
